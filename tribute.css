@@ -13,10 +13,10 @@ body{
     text-align: center;
 }
 
-main#main{
+main{
 background-color: #eeeeee;
-margin: 30px 8px;
-padding:15px ;
+margin: 30px 0;
+padding:15px 20px 0 20px;
 border-radius: 5px;
 }
 
@@ -50,10 +50,15 @@ border-radius: 5px;
     line-height: 1.5;
 }
 
+.tribute-info{
+    background: #eeeeee;
+    display: grid;
+  
+}
+
 #Headline , h3{
 font-size: 1.2rem;
 margin: 50px 0;
-text-align: center;
 }
 
 li{
@@ -61,8 +66,10 @@ li{
     font-size: 1rem;
 }
 
+
 ul{
     text-align: left;
+    padding: 0 30px ;
     line-height: 1.6;
     margin-bottom: 50px;
     margin-left: auto;
